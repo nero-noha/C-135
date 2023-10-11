@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Object Detection Web App</title>
+</head>
+<body style="background-image: url('gradient-dark-blue-futuristic-digital-background.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
+    <h1 class="display-4 text-light text-center">Object Detection Web App</h1>
+    <p class="lead text-light text-center">Please enter the object name you want to search for.</p>
+
+    <div class="text-center">
+        <input type="text" id="objectName" class="form-control" placeholder="Enter object name">
+        <button class="btn btn-primary mt-3" onclick="start()">Start</button>
+    </div>
+
+    <div id="modelStatus" class="text-center text-light mt-3"></div>
+<div id="detectionStatus" class="text-center text-light mt-3"></div>
+
+
+
+</body>
+
+</html>
